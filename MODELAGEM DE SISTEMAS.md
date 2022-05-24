@@ -15,9 +15,9 @@
    - É projetado e construído para receber dados de finalidades específicas
    - Um banco de dados pode ter qualquer tamanho, desde uma tabela simples com poucos dados armazenados, até um servidor de larga escala que atende uma empresa multinacional. 
 
-   
+   <br>
 
-   2. **DADOS ≠ INFORMAÇÃO**
+   2- **DADOS ≠ INFORMAÇÃO**
 
    Conceitos totalmente distintos, mas relacionados.
 
@@ -31,9 +31,9 @@
 
      ex: Lista de clientes cadastrados com número do celular ou CPF.
 
-   
+   <br>
 
-   3. **SGBD - SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS**
+   3- **SGBD - SISTEMA DE GERENCIAMENTO DE BANCO DE DADOS**
 
       É uma coleção de softwares que permite a manuntenção e criação de um ou mais banco de dados. 
 
@@ -63,23 +63,28 @@
       - SQLite
 
         
+<br>
+        
 
-        4. **TIPOS DE BANCO DE DADOS**
+**4 - TIPOS DE BANCO DE DADOS.**<br>
+  **4.1 - HIERÁRQUICO:** 
 
-      4.1 - **Hierárquico:** 
-   
-      - Os dados são organizados de forma hierárquica por meio de interconexões e ligações.
-      - Esse modelo é um diagrama de estrutura em árvore.
-      - Uma ligação é representada pela relação entre dois tipos de registros: pai e filho.
-      - Acesso aos dados de forma unidirecional, a partir do pai ao filho. 
-   
+  
+
+- Os dados são organizados de forma hierárquica por meio de interconexões e ligações.
+
+- Esse modelo é um diagrama de estrutura em árvore.
+
+- Uma ligação é representada pela relação entre dois tipos de registros: pai e filho.
+
+- Acesso aos dados de forma unidirecional, a partir do pai ao filho. 
    
    
    ![Diferença entre modelo de dados hierárquico, de rede e relacional – Acervo  Lima](https://media.geeksforgeeks.org/wp-content/uploads/20200727113000/network.png)
    
    
-   
-   ​	**4.2 - Modelo em Rede:**
+<br>
+   ​	4.2 - MODELO EM REDE
    
    - Os dados são organizados em tipos e ligações entre dois registros, não de forma hierárquica. 
    - Tanto o esquema quanto ocorrencias de dados são visualizados como um grafo direcionado
@@ -89,10 +94,8 @@
    ![Blog de Dados | Just another WordPress.com site](http://blogrdi.files.wordpress.com/2011/08/intro-bd_html_21d904ca.gif)
    
    
-   
-   
-   
-   ​	**4.3 - Relacional** *(Muito importante)*
+<br> 
+   ​	4.3 - RELACIONAL (Muito importante)
    
    - Os dados são separados em entidades, conforme o tema abordado e registrados como atributos dessas entidades.
    - No modelo relacional, os dados são organizados em tabelas (relações) bidimensionais.
@@ -103,10 +106,9 @@
    ![img](https://web.fe.up.pt/~ssn/disciplinas/cdi/bases-de-dados/er_exemplo.png)
    
    
+ <br> 
    
-   
-   
-   4.4 - **Objeto-Relacional** (BDOR ou SGBDRO)
+   4.4 - **OBJETO-RELACIONAL** (BDOR ou SGBDRO)
    
    - Sistema de gerenciamento de banco de dados, semelhante a um banco de dados relacional, mas orientado a objetos.
    
@@ -119,14 +121,14 @@
    - Composto por coleções de objetos ou relações que armazenam dados
    
      > **Exemplo de utilização:** 
-     >
+     
      > - Armazenar dados de clientes de uma loja de roupas.
-     >
+     
      > Pode-se criar tabelas que armazenam diferentes conjuntos de dados relacionados a cada cliente, como dados pessoais, endereço, contatos, dados de compras (financeiro) e outras, de forma que não haja redundancia dos dados e garanta a integridade dos mesmos.
    
    
    
-   4.5 - **Não-Relacional (NoSQL)**
+   4.5 - **NÃO-RELACIONAL (NoSQL)**
    
    - Projetados para análise de dados semiestruturados. 
    
@@ -140,8 +142,8 @@
 
 ​	Os passos do processo de criação de banco de dados segue este raciocínio:
 
-  		1. **Especificação e Análise de Requisitos**
-  	   - Onde os requisitos são documentados e analisados
+ 1. Especificação e Análise de Requisitos
+   - Onde os requisitos são documentados e analisados
 
 2. **Projeto Conceitual**
    - Baseado nos requisitos
@@ -244,8 +246,7 @@
 Foram apenas alguns exemplos de códigos que serão mais aprofundados no decorrer dos estudos. 
 
 
-
-	9. **MODELAGEM DE DADOS**
+9 - MODELAGEM DE DADOS
 
 - São usadas técnicas específicas de modelagem no processo de criação de modelo de Dados para um sistema de informação. Há um processo de levantamento, análise, categorização e exploração de todos os dados e tipos de informações a serem utilizadas em uma aplicação.
 
