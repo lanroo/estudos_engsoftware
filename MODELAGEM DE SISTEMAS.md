@@ -1,4 +1,4 @@
-##                           MODELAGEM DE SISTEMAS
+##                           MODELAGEM DE DADOS
 
 1. **INTRODUÇÃO AO BANCO DE DADOS**
 
